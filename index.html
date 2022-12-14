@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+	<!-- CSS -->
+	<link rel="stylesheet" href="index.css">
+	<title>Tindog</title>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<img class="profile" src="images/icon-profile.png" alt="profile icon">
+			<img class="logo" src="images/logo.png" alt="site logo">
+			<img class="chat" src="images/icon-chat.png" alt="chat icon">
+		</nav>
+	</header>
+	<main class="wrapper" id="wrapper"><!-- dog profile html --></main>
+	<section class="buttons">
+		<button class="btn btn-reject" id="btn-reject">
+			<img src="images/icon-cross.png" alt="cross icon">
+		</button>
+		<button class="btn btn-accept" id="btn-accept">
+			<img src="images/icon-heart.png" alt="heart icon">
+		</button>
+	</section>
+	<!-- Badges with default display set to none -->
+	<img class="like-badge" id="like-badge" src="images/badge-like.png" alt="like badge">
+	<img class="nope-badge" id="nope-badge" src="images/badge-nope.png" alt="nope badge">
+	<script src="index.js" type="module"></script>
+</body>
+
+</html>

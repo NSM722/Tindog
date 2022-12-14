@@ -1,0 +1,112 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background-color: grey;
+}
+
+
+/* Header */
+header {
+    background-color: #FFFFFF;
+}
+
+nav img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em 1em;
+}
+
+.logo {
+    width: 50px;
+}
+
+.profile,
+.chat {
+    width: 20px;
+}
+
+/* Main */
+.wrapper {
+    max-width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #FFFFFF 33.29%, #F7F8FC 100%);
+}
+
+.dog-img {
+    max-width: 100%;
+    border-radius: 15px;
+    padding: .4em;
+    /* display: block; */
+    width: 100%;
+}
+
+.dog-info {
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    left: 10px;
+}
+
+.dog-info {
+    background-color: linear-gradient(180deg, #FFFFFF 33.29%, #F7F8FC 100%);
+    border-radius: 15px;
+}
+
+
+/* Section Badges */
+.like-badge,
+.nope-badge {
+    display: none;
+    position: absolute;
+    width: 233.91px;
+    height: 116.26px;
+    left: 20px;
+    top: 121.96px;
+    transform: rotate(-30deg);
+}
+
+/* Buttons */
+.buttons {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5em 0;
+    gap: 1em;
+}
+
+.btn {
+    border-radius: 50%;
+    border: none;
+    width: 70px;
+    height: 70px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 20px #E9E9EA;
+}
+
+.btn-reject:hover,
+.btn-reject:focus {
+    background-color: #FFE7EF;
+}
+
+.btn-accept:hover,
+.btn-accept:focus {
+    background-color: #DBFFF4;
+}
